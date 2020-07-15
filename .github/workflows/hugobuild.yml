@@ -4,13 +4,16 @@ jobs:
   build:
     name: Build
     runs-on: ubuntu-latest
+
     steps:
     - name: Check out code
       uses: actions/checkout@v2
+
     - name: Check out theme
       uses: actions/checkout@v2
-        with:
-          repository: theNewDynamic/gohugo-theme-ananke
-          path: hugo/themes/ananke
+      with:
+        repository: theNewDynamic/gohugo-theme-ananke
+        path: hugo/themes/ananke
+
     - name: Build Hugo
       uses: lowply/build-hugo@v0.73.0
