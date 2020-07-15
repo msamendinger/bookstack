@@ -18,4 +18,4 @@ jobs:
     - name: Build Hugo
       uses: msamendinger/build-hugo@master
       with:
-        args: "-c hugo --config hugo/config.toml"
+        args: "--config hugo-config.toml"
