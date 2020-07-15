@@ -18,4 +18,4 @@ jobs:
     - name: Build Hugo
       uses: lowply/build-hugo@v0.73.0
       with:
-        args: "-c hugo"
+        args: "-c hugo --config hugo/config.toml"
