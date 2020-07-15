@@ -17,4 +17,5 @@ jobs:
 
     - name: Build Hugo
       uses: lowply/build-hugo@v0.73.0
-      args: "-c hugo"
+      with:
+        args: "-c hugo"
