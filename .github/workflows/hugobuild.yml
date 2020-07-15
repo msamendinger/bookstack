@@ -16,6 +16,6 @@ jobs:
         path: hugo/themes/ananke
 
     - name: Build Hugo
-      uses: msamendinger/build-hugo@v0.73.0
+      uses: msamendinger/build-hugo@master
       with:
         args: "-c hugo --config hugo/config.toml"
