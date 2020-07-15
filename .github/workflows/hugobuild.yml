@@ -6,9 +6,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Check out code
-      uses: actions/checkout@master
+      uses: actions/checkout@v2
     - name: Check out theme
-      uses: actions/checkout@master
+      uses: actions/checkout@v2
         with:
           repository: theNewDynamic/gohugo-theme-ananke
           path: hugo/themes/ananke
